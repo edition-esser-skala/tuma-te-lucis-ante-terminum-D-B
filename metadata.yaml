@@ -1,20 +1,23 @@
 composer:
-  last:
-  first:
-title:
-id:
-genre:
-scoring:
+  last: Tůma
+  first: František Ignác Antonín
+title: Te lucis ante terminum
+genre: hymn
+scoring: S, B (solo), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
-  B1:
-    siglum:
-    shelfmark:
-    date:
-    rism:
-    url:
-    license:
+  A1:
+    siglum: D-B
+    shelfmark: Mus.ms.autogr. Tuma, F. 2 M
+    rism: 1001020790
+    url: https://resolver.staatsbibliothek-berlin.de/SBB000209F100000000
+    license: public domain
     principal: true
+  B1:
+    siglum: D-B
+    shelfmark: Mus.ms.autogr. Salieri, A. 4 (5)
+    date: 1800–1833
+    rism: 464122530
+    url: https://resolver.staatsbibliothek-berlin.de/SBB00018FBF00050000
+    license: public domain
 imslp:
-parts:
-  ottoni: Clarino I, II in C\\Timpani in C–G
