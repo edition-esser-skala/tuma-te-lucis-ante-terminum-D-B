@@ -1,19 +1,19 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "Te lucis ante terminum"
     \addTocEntry
-    \paper { indent = 2\cm systems-per-page = #6 }
+    \paper { indent = 2\cm systems-per-page = #5 }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \TeLucisOrgano
+          \set Staff.instrumentName = "Violino II"
+          \TeLucisViolinoII
         }
       >>
     }

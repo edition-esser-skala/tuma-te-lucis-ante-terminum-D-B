@@ -11,7 +11,7 @@
 
 \book {
   \bookpart {
-    \section "1" "First"
+    \section "Te lucis ante terminum"
     \addTocEntry
     \paper { indent = 2\cm }
     \score {
@@ -19,33 +19,21 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "Soprano"
-            \new Voice = "Soprano" { \dynamicUp \xxxSoprano }
+            \new Voice = "Soprano" { \dynamicUp \TeLucisSoprano }
           }
-          \new Lyrics \lyricsto Soprano \xxxSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "Alto"
-            \new Voice = "Alto" { \dynamicUp \xxxAlto }
-          }
-          \new Lyrics \lyricsto Alto \xxxAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "Tenore"
-            \new Voice = "Tenore" { \dynamicUp \xxxTenore }
-          }
-          \new Lyrics \lyricsto Tenore \xxxTenoreLyrics
+          \new Lyrics \lyricsto Soprano \TeLucisSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \xxxBasso }
+            \new Voice = "Basso" { \dynamicUp \TeLucisBasso }
           }
-          \new Lyrics \lyricsto Basso \xxxBassoLyrics
+          \new Lyrics \lyricsto Basso \TeLucisBassoLyrics
         >>
         \new Staff {
           \set Staff.instrumentName = "Organo"
-          \xxxOrgano
+          \TeLucisOrgano
         }
-        \new FiguredBass { \xxxBassFigures }
+        \new FiguredBass { \TeLucisBassFigures }
       >>
     }
   }
